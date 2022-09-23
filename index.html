@@ -7,12 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JuanDC: Juan David Castro</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:500px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width:1005px)">
+    <link rel="stylesheet" href="./css/desktop-2.css" media="(min-width:1282px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <aside class="main-aside-left">
+        <div>
+            <button><img src="./img/104501_twitter_bird_icon.svg" alt="Icono de Twitter"></button>
+
+        </div>
+        <div>
+            <button><img src="./img/5172504_birdhouse_tweet_icon.svg" alt="Icono de Home"><h2>Inicio</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/4092559_search_magnifier_mobile ui_zoom_icon.svg" alt="Icono de Busqueda"><h2>Explorar</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/4092563_bell_mobile ui_notification_icon.svg" alt="Icono de notificacion"><h2>Notificaciones</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/2674096_object_email_web_essential_icon.svg" alt="Icono de mensaje"><h2>Mensajes</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/3994430_bookmark_label_ribbon_save_web_icon.svg" alt="Icono de guardado"><h2>Guardados</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/314892_notebook_text_icon.svg" alt="Icono de lista"><h2>Listas</h2></button>
+
+        </div>
+        <div>
+
+            <button><img src="./img/4092564_profile_about_mobile ui_user_icon.svg" alt="Icono de Perfil"><h2>Perfil</h2></button>
+
+        </div>
+        <div>
+            <button><img src="./img/9666706_menu_kebab_horizontal_circle_icon.svg" alt="Icono de mas opciones"><h2>Mas opciones</h2></button>
+
+        </div>
+        <div class="main-aside--twitter-write">
+            <button><img src="./img/2236318_tweet_tweet post_write_icon.svg" alt="Icono de redaccion de twitter"><h2>Twittear</h2></button>
+        </div>
+
+    </aside>
     <main>
 
         <section class="main-header">
@@ -60,8 +106,8 @@
 
                 <section class="main-body--followers">
                     <ul>
-                        <li>531 <span>Siguiendo</span></li>
-                        <li>7.174 <span>Seguidores</span></li>
+                        <li><a href="#">531 <span>Siguiendo</span></a></li>
+                        <li><a href="#">7.174 <span>Seguidores</span></a></li>
                     </ul>
                 </section>
             </section>
@@ -91,12 +137,41 @@
         </section>
 
         <section class="main-footer">
-            <img src="./img/5172504_birdhouse_tweet_icon.svg" alt="Icono de Home">
-            <img src="./img/4092559_search_magnifier_mobile ui_zoom_icon.svg" alt="Icono de Busqueda">
-            <img src="./img/4092563_bell_mobile ui_notification_icon.svg" alt="Icono de notificacion">
-            <img src="./img/2674096_object_email_web_essential_icon.svg" alt="Icono de mensaje">
+            <button><img src="./img/4092559_search_magnifier_mobile ui_zoom_icon.svg" alt="Icono de Busqueda"></button>
+            <button><img src="./img/5172504_birdhouse_tweet_icon.svg" alt="Icono de Home"></button>
+            <button><img src="./img/4092563_bell_mobile ui_notification_icon.svg" alt="Icono de notificacion"></button>
+            <button><img src="./img/2674096_object_email_web_essential_icon.svg" alt="Icono de mensaje"></button>
         </section>
     </main>
+
+    <aside class="main-aside-right">
+        <div class="main-aside--input-container">
+            <img class="search-icon" src="./img/search-input-aside.svg" alt="">
+            <input type="text" placeholder="Buscar en Twitter">
+        </div>
+        <section class="main-aside--imgs-container">
+            <div><img class="top-left" src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+            <div><img src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+            <div><img class="top-right" src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+            <div><img class="bottom-left" src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+            <div><img src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+            <div><img class="bottom-right" src="./img/r_2001262_RktsS.jpg" alt="Imagen de meme"></div>
+
+        </section>
+
+        <section class="main-aside--service-condition">
+            <ul>
+                <li><a href="#">Condiciones de Servicio</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Política de cookies</a></li>
+                <li><a href="#">Accesibilidad</a></li>
+                <li><a href="#">Información de anuncios</a></li>
+                <li><a href="#">Más opciones</a>...</li>
+                <li>© 2022 Twitter, Inc.</li>
+
+            </ul>
+        </section>
+    </aside>
 </body>
 
 </html>
