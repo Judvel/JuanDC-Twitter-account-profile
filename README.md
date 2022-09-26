@@ -15,7 +15,7 @@ This project is a web page static and consist on make a clone of the JuanDC's tw
 
 One of the aims is build this project with best practice, thus we use the methology "Mobile First" to make the page.
 
-The images show the mobile and tablet version of the Instagram's Home Page.
+The images show the diferent versions of the JuanDC's twitter account profile.
 
 
 <figure style="text-align:center">
